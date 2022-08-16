@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Spotify - Web player</title>
+</head>
+<body>
+    <!-- Barra de navegação superior--> 
+    <navbar id="supbar">
+        <div class="supbar-container">
+            <ul class="supbar-itens">
+                <li class="supbar-item">Premium</li>
+                <li class="supbar-item">Suporte</li>
+                <li class="supbar-item">Baixar</li>
+                <li class="supbar-item">Inscrever-se</li>
+                <button class="btn-primary">Entrar</button>
+            </ul>
+        </div>
+    </navbar>
+
+    <!--Barra de navegação esquerda-->
+    <navbar class="sidebar">
+        <div class="sidebar-container">
+            <!--Logo Spotify-->
+            <div class="sidebar_logo">
+                <img src="img/logo.png"/>
+            </div>
+
+            <!--Ícones do menu-->
+            <div class="sidebar_menu">
+                <a class="sidebar_menu_selected" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Sua Blibioteca</a>
+            </div>
+
+            <div class="sidebar_menu">
+                <div class="sidebar_menu_item">
+                    <div class="sidebar_menu_item_plus">
+                        +
+                    </div>
+                    <span>Criar playlist</span>
+                </div>
+
+                <div class="sidebar_menu_item">
+                    <img src="img/curtidas.png"/>
+                    <span>Músicas Curtidas</span>
+                </div>
+
+                <div class="sidebar_menu_inf">
+                    <p>Cookies</p>
+                    <p>Privacidade</p>
+                </div>
+            </div>
+        </div>
+    </navbar>
+
+    <!--Principal-->
+    <div class="main">
+        <div class="main-container">
+            <div class="main_row">
+                
+                <div class="main_row_title"><h2>Paradas</h2></div>
+
+                <div class="main_col">
+                    <img src="img/topbr.jpg" />
+                    <h3>Top 50 - Brasil</h3>
+                    <p>Brasil: seu relatório diário das faixas mais tocadas no momento.</p>
+                </div>
+
+                <div class="main_col">
+                    <img src="img/topglobal.jpg" />
+                    <h3>Top 50 - Mundo</h3>
+                    <p>Mundo: seu relatório diário das faixas mais tocadas no momento.</p>
+                </div>
+
+                <div class="main_col">
+                    <img src="img/top.jpg" />
+                    <h3>Top Brasil</h3>
+                    <p>Mc Jacaré e os maiores hits do país. O que tá bombando tá aqui.</p>
+                </div>
+
+                <div class="main_col">
+                    <img src="img/viralsp.jpg" />
+                    <h3>Viral São Paulo BR</h3>
+                    <p>The most distinctively popular new songs in São Paulo BR relative to the rest of the world.</p>
+                </div>
+
+                <div class="main_col">
+                    <img src="img/viralrj.jpg" />
+                    <h3>Viral Rio de Janeiro BR</h3>
+                    <p>The most distinctively popular new songs in Rio de Janeiro BR relative to the rest of the world.</p>
+                </div>
+
+                <div class="main_col">
+                    <img src="img/viraljp.jpg" />
+                    <h3>Viral João Pessoa BR</h3>
+                    <p>The most distinctively popular new songs in João Pessoa BR relative to the rest of the world.</p>
+                </div>
+
+            </div>
+
+            <div class="main_row"></div>
+                <div class="main_row_title"><h2>Mais Ouvidas</h2></div>
+                <div class="main_col" data-image="img/mj.jpg" data-artist="Michael Jackson" data-song="Billie Jean" data-file="assets/Michael_Jackson_Billie_Jean.mp3">
+                    <img src="img/mj.jpg" />
+                    <h3>Billie Jean</h3>
+                    <p>Michael Jackson</p>
+                </div>
+            </div>
+
+            <!-- Footer-->
+            <footer id="footer">
+                <div class="footer-content">
+                    <ul class="footer-menu"><p>Empresa</p>
+                        <li class="footer-menu-item">Sobre</li>
+                        <li class="footer-menu-item">Empregos</li>
+                        <li class="footer-menu-item">For the record</li>
+                    </ul>
+
+                    <ul class="footer-menu"><p>Comunidades</p>
+                        <li class="footer-menu-item">Para Artistas</li>
+                        <li class="footer-menu-item">Desenvolvedores</li>
+                        <li class="footer-menu-item">Publicidade</li>
+                        <li class="footer-menu-item">Investidores</li>
+                        <li class="footer-menu-item">Fornecedores</li>
+                    </ul>
+
+                    <ul class="footer-menu"><p>Links úteis</p>
+                        <li class="footer-menu-item">Suporte</li>
+                        <li class="footer-menu-item">Aplicativo móvel grátis</li>
+                    </ul>
+
+                    <div class="socials">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-info">
+                    <ul class="footer-info-items">
+                        <li class="footer-info-item">Legal</li>
+                        <li class="footer-info-item">Centro de Privacidade</li>
+                        <li class="footer-info-item">Política de privacidade</li>
+                        <li class="footer-info-item">Cookies</li>
+                        <li class="footer-info-item">Sobre anúncios</li>
+                    </ul>
+
+                    <div class="rights">
+                        <p>&copy; 2022 Spotify AB</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!--Player-->
+    <div class="player">
+        <div class="player_artist"></div>
+
+        <div class="player_control">
+            <div class="player_control_buttons">
+                <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                <a href=""><i class="fas fa-backward-step"></i></a>
+                <a class="on" id="playbtn" href="#"><i class="fa-solid fa-circle-play"></i></a>
+                <a class="on" style="display: none;" id="pausebtn" href="#"><i class="fa-solid fa-circle-pause"></i></a>
+                <a href=""><i class="fas fa-forward-step"></i></a>
+                <a class="player_selected" href="#"><i class="fa-solid fa-repeat"></i></a>
+            </div>
+
+            <div id="progress-container"class="progress-container">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Audio-->
+	<audio id="audioplayer" style="position: absolute;left: 0; top: 0;z-index: -999;opacity: 0;" controls=""></audio>
+
+    <!--JavaScript-->
+    <script src="js/all.min.js"></scriptsrc></script>
+    <script src="js/player.js"></script>
+
+</body>
+</html>
