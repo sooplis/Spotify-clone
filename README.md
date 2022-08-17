@@ -12,7 +12,6 @@ Spotify clone with HTML, CSS and Js.
    * [Tools](#Tools)
    * [Files](#Files)
    * [Author](#Author)
-   * [License](#License)
 <!--te-->
 
 ## Current status
@@ -47,6 +46,3 @@ This file contains the JavaScript code to play/pause a song.
   <a href="mailto:lassantosti@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
  
 By Laisa Santos.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
